@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+      <title>SNIPPETS-Code Hightlighter</title>
+    
+
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/test.css" media="screen" rel="stylesheet" type="text/css">
+   
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript" src="/javascripts/snippet.js"></script>
+  </head>
+
+<body>
+    <div id="main">
+      <div id="header" class="">
+        <div class="site">
+          <div class="logo">
+            <a href="/snippets"><img src="/images/logo_gist.png" alt="git-hub"></a>
+          </div>
+           
+			<div id="credit">
+				<p>Created by <a href="mailto:ckyeo.1@gmail.com">Chee Yeo</a></p>
+			</div>
+
+
+            <div class="actions">
+              <%=link_to 'New Snippet', new_snippet_path %> 
+              <%=link_to 'All Snippets', snippets_path %> 
+            </div>
+          
+        </div>
+      </div>
+      
+    <div class="site">
+       <%= yield -%> 
+    </div> <!-- site -->
+
+    <div class="push"></div>
+
+    </div>
+    
+    <!--><div id="footer"></div><!-->
+
+</body>
+
+</html>

@@ -1,0 +1,1921 @@
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 19:57:49) [GET]
+  Session ID: 70742a65c590158eb259c95df7bfdbd4
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.12592): Snippets:show:57
+Completed in 3.69312 (0 reqs/sec) | Rendering: 0.00006 (0%) | DB: 0.14627 (3%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 19:58:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00307): Snippets:show:57
+Completed in 1.83977 (0 reqs/sec) | Rendering: 0.00006 (0%) | DB: 0.00042 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 19:59:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00288): Snippets:show:57
+Completed in 1.88792 (0 reqs/sec) | Rendering: 0.00006 (0%) | DB: 0.00190 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing ApplicationController#show (for 127.0.0.1 at 2009-06-08 20:03:27) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+
+
+SyntaxError (/Users/cheeyeo/railsapps/pasteit/app/controllers/snippets_controller.rb:44: syntax error, unexpected tASSOC, expecting '}'
+      format.js { :layout => false } #show.js.erb
+                            ^):
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:101:in `require_or_load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:260:in `load_missing_constant'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:467:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:479:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/inflector.rb:283:in `constantize'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/string/inflections.rb:143:in `constantize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:03:43) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.02585): Snippets:show:57
+Rendering snippets/show
+Completed in 3.65771 (0 reqs/sec) | Rendering: 0.34293 (9%) | DB: 0.02405 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:04:52) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00119): Snippets:show:57
+Rendering snippets/show
+Completed in 0.67855 (1 reqs/sec) | Rendering: 0.32364 (47%) | DB: 0.00046 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:05:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00093): Snippets:show:57
+Rendering snippets/show
+Completed in 0.65819 (1 reqs/sec) | Rendering: 0.31590 (47%) | DB: 0.00040 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:05:25) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00364): Snippets:show:57
+Rendering snippets/show
+Completed in 0.67063 (1 reqs/sec) | Rendering: 0.31901 (47%) | DB: 0.00231 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:08:53) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00370): Snippets:show:57
+Rendering snippets/show
+Completed in 1.11783 (0 reqs/sec) | Rendering: 0.32064 (28%) | DB: 0.00237 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:08:56) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00143): Snippets:show:57
+Rendering snippets/show
+Completed in 0.64486 (1 reqs/sec) | Rendering: 0.31820 (49%) | DB: 0.00041 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:09:16) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00139): Snippets:show:57
+Rendering snippets/show
+Completed in 0.64523 (1 reqs/sec) | Rendering: 0.31742 (49%) | DB: 0.00047 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:09:50) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00360): Snippets:show:57
+Rendering snippets/show
+Completed in 0.67271 (1 reqs/sec) | Rendering: 0.32119 (47%) | DB: 0.00224 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:13:34) [GET]
+  Session ID: cca029adf34a2724a3ab2c911c2ee226
+  Parameters: {"action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00488): Snippets:show:57
+Rendering template within layouts/main
+Rendering snippets/show
+
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.colorize) on line #98 of snippets/show.html.erb:
+95:         </div>
+96: 
+97:         <div class="data syntax">
+98:             <%= @content.colorize %>
+99:         </div>
+100: 
+101:       </div>
+
+    app/views/snippets/show.html.erb:98:in `_run_erb_47app47views47snippets47show46html46erb'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/snippets_controller.rb:42:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#index (for 127.0.0.1 at 2009-06-08 20:13:41) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"action"=>"index", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippet:all: ({:expires_in=>60 seconds, :unless_exist=>false})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00414): Snippet:all:
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:languages ({:unless_exist=>false})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00287): Snippets:languages
+Rendering template within layouts/main
+Rendering snippets/index
+Completed in 3.10643 (0 reqs/sec) | Rendering: 3.09796 (99%) | DB: 0.00289 (0%) | 200 OK [http://localhost/snippets]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:13:47) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00109): Snippets:show:57
+Rendering template within layouts/main
+Rendering snippets/show
+
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.colorize) on line #98 of snippets/show.html.erb:
+95:         </div>
+96: 
+97:         <div class="data syntax">
+98:             <%= @content.colorize %>
+99:         </div>
+100: 
+101:       </div>
+
+    app/views/snippets/show.html.erb:98:in `_run_erb_47app47views47snippets47show46html46erb'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/snippets_controller.rb:42:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:14:57) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00130): Snippets:show:57
+Rendering template within layouts/main
+Rendering snippets/show
+
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.colorize) on line #98 of snippets/show.html.erb:
+95:         </div>
+96: 
+97:         <div class="data syntax">
+98:             <%= @content.colorize %>
+99:         </div>
+100: 
+101:       </div>
+
+    app/views/snippets/show.html.erb:98:in `_run_erb_47app47views47snippets47show46html46erb'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/snippets_controller.rb:42:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:14:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00170): Snippets:show:57
+Rendering template within layouts/main
+Rendering snippets/show
+
+
+ActionView::TemplateError (You have a nil object when you didn't expect it!
+The error occurred while evaluating nil.colorize) on line #98 of snippets/show.html.erb:
+95:         </div>
+96: 
+97:         <div class="data syntax">
+98:             <%= @content.colorize %>
+99:         </div>
+100: 
+101:       </div>
+
+    app/views/snippets/show.html.erb:98:in `_run_erb_47app47views47snippets47show46html46erb'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:338:in `execute'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_handlers/compilable.rb:29:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:35:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:22:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:865:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:880:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:251:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    app/controllers/snippets_controller.rb:42:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:15:09) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00372): Snippets:show:57
+Rendering template within layouts/main
+Rendering snippets/show
+Completed in 0.35820 (2 reqs/sec) | Rendering: 0.33852 (94%) | DB: 0.00235 (0%) | 200 OK [http://localhost/snippets/57]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:15:15) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"txt", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00153): Snippets:show:57
+Completed in 0.00352 (283 reqs/sec) | Rendering: 0.00005 (1%) | DB: 0.00056 (15%) | 200 OK [http://localhost/snippets/57.txt]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:20:54) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00126): Snippets:show:57
+Rendering snippets/show
+Completed in 0.38537 (2 reqs/sec) | Rendering: 0.38074 (98%) | DB: 0.00040 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:22:44) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00216): Snippets:show:57
+Rendering snippets/show
+Completed in 0.32510 (3 reqs/sec) | Rendering: 0.31974 (98%) | DB: 0.00043 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:22:46) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00205): Snippets:show:57
+Rendering snippets/show
+Completed in 0.32542 (3 reqs/sec) | Rendering: 0.32157 (98%) | DB: 0.00046 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:22:47) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00146): Snippets:show:57
+Rendering snippets/show
+Completed in 0.32461 (3 reqs/sec) | Rendering: 0.32161 (99%) | DB: 0.00046 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:22:55) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00432): Snippets:show:57
+Rendering snippets/show
+Completed in 0.35353 (2 reqs/sec) | Rendering: 0.33080 (93%) | DB: 0.00294 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:23:00) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00097): Snippets:show:57
+Rendering snippets/show
+Completed in 0.32583 (3 reqs/sec) | Rendering: 0.32338 (99%) | DB: 0.00041 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:25:02) [GET]
+  Session ID: BAh7BzoMY3NyZl9pZCIlYmJkYzhhNzgxMTFkZGY3YTg0ZWM5NTdhMzMwZWJm
+MDQiCmZsYXNoSUM6J0FjdGlvbkNvbnRyb2xsZXI6OkZsYXNoOjpGbGFzaEhh
+c2h7AAY6CkB1c2VkewA=--710c627e5342cc8bee7c946c8fa1e02ad1f42fdf
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00103): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33748 (2 reqs/sec) | Rendering: 0.33325 (98%) | DB: 0.00044 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:25:37) [GET]
+  Session ID: 7c2e0feb719e1262f8ae138d688926a0
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00156): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33616 (2 reqs/sec) | Rendering: 0.33088 (98%) | DB: 0.00050 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:25:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00174): Snippets:show:57
+Rendering snippets/show
+Completed in 0.32460 (3 reqs/sec) | Rendering: 0.32107 (98%) | DB: 0.00065 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:26:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00112): Snippets:show:57
+Rendering snippets/show
+Completed in 0.39754 (2 reqs/sec) | Rendering: 0.39331 (98%) | DB: 0.00043 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:26:35) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00148): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33074 (3 reqs/sec) | Rendering: 0.32698 (98%) | DB: 0.00054 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:26:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00120): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33210 (3 reqs/sec) | Rendering: 0.32886 (99%) | DB: 0.00040 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-06-08 20:27:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {}
+
+
+ActionController::RoutingError (No route matches "/57.js" with {:method=>:get}):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/recognition_optimisation.rb:67:in `recognize_path'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/routing/route_set.rb:384:in `recognize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:148:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:27:59) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00136): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33178 (3 reqs/sec) | Rendering: 0.32764 (98%) | DB: 0.00048 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:29:26) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00162): Snippets:show:57
+Rendering snippets/show
+
+
+Errno::ENOENT (No such file or directory - /Users/cheeyeo/railsapps/pasteit/app/views/snippets/show.js.erb):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:39:in `read'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:39:in `source'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_error.rb:11:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:29:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:29:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:922:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/snippets_controller.rb:44:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/snippets_controller.rb:42:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:30:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00097): Snippets:show:57
+Rendering snippets/show
+Completed in 0.00554 (180 reqs/sec) | Rendering: 0.00087 (15%) | DB: 0.00039 (6%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:30:03) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00123): Snippets:show:57
+Rendering snippets/show
+Completed in 0.00310 (322 reqs/sec) | Rendering: 0.00042 (13%) | DB: 0.00040 (12%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:30:20) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00110): Snippets:show:57
+Rendering snippets/show
+Completed in 0.34165 (2 reqs/sec) | Rendering: 0.33915 (99%) | DB: 0.00045 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:30:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00105): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33326 (3 reqs/sec) | Rendering: 0.32963 (98%) | DB: 0.00044 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:33:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00149): Snippets:show:57
+Rendering snippets/show
+Completed in 0.49090 (2 reqs/sec) | Rendering: 0.48413 (98%) | DB: 0.00046 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:33:21) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00177): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33363 (2 reqs/sec) | Rendering: 0.32909 (98%) | DB: 0.00055 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:33:34) [GET]
+  Session ID: 03d18383e52063011a9e7eea0cc5d608
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00194): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33399 (2 reqs/sec) | Rendering: 0.32921 (98%) | DB: 0.00054 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:34:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00118): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33041 (3 reqs/sec) | Rendering: 0.32313 (97%) | DB: 0.00048 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:34:05) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00155): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33176 (3 reqs/sec) | Rendering: 0.32731 (98%) | DB: 0.00063 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:34:30) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00195): Snippets:show:57
+Rendering snippets/show
+Completed in 0.34187 (2 reqs/sec) | Rendering: 0.33738 (98%) | DB: 0.00057 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:34:31) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00108): Snippets:show:57
+Rendering snippets/show
+Completed in 0.32843 (3 reqs/sec) | Rendering: 0.32529 (99%) | DB: 0.00038 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:34:40) [GET]
+  Session ID: 7daa71c0ac09da4e8832334bfa84506d
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.00120): Snippets:show:57
+Rendering snippets/show
+Completed in 0.33105 (3 reqs/sec) | Rendering: 0.32624 (98%) | DB: 0.00045 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:34:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+MemCacheError (No connection to server): No connection to server
+Cache miss: Snippets:show:57 ({})
+MemCacheError (No connection to server): No connection to server
+Cache write (will save 0.04071): Snippets:show:57
+Rendering snippets/show
+Completed in 0.40996 (2 reqs/sec) | Rendering: 0.00118 (0%) | DB: 0.03867 (9%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:35:35) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 0.00327): Snippets:show:57
+Rendering snippets/show
+Completed in 0.67490 (1 reqs/sec) | Rendering: 0.31999 (47%) | DB: 0.00203 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:39:58) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 0.03121): Snippets:show:57
+Rendering snippets/show
+Completed in 0.77969 (1 reqs/sec) | Rendering: 0.32027 (41%) | DB: 0.02967 (3%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:40:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.64615 (1 reqs/sec) | Rendering: 0.32053 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:43:10) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.64471 (1 reqs/sec) | Rendering: 0.32131 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:44:40) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.65131 (1 reqs/sec) | Rendering: 0.32601 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:44:54) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.64003 (1 reqs/sec) | Rendering: 0.31884 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:45:13) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.72367 (1 reqs/sec) | Rendering: 0.32710 (45%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:45:36) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.63763 (1 reqs/sec) | Rendering: 0.31767 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:45:51) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.63651 (1 reqs/sec) | Rendering: 0.31756 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:46:00) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.64373 (1 reqs/sec) | Rendering: 0.31991 (49%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:53:22) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.70496 (1 reqs/sec) | Rendering: 0.31842 (45%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:53:45) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.32393 (3 reqs/sec) | Rendering: 0.00126 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:55:24) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+
+
+Errno::ENOENT (No such file or directory - /Users/cheeyeo/railsapps/pasteit/app/views/snippets/show.js.erb):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:39:in `read'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:39:in `source'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_error.rb:11:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:29:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:29:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:922:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/snippets_controller.rb:44:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/snippets_controller.rb:42:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:55:37) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.33581 (2 reqs/sec) | Rendering: 0.00072 (0%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:56:02) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+Completed in 0.64192 (1 reqs/sec) | Rendering: 0.32111 (50%) | DB: 0.00000 (0%) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 20:58:29) [GET]
+  Session ID: BAh7BiIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo
+SGFzaHsABjoKQHVzZWR7AA==--be4a0a767f98e389108872fe27e6999ee17deaae
+  Parameters: {"format"=>"js", "action"=>"show", "id"=>"57", "controller"=>"snippets"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+
+
+Errno::ENOENT (No such file or directory - /Users/cheeyeo/railsapps/pasteit/app/views/snippets/show.js.erb):
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:39:in `read'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:39:in `source'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template_error.rb:11:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:29:in `new'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/template.rb:29:in `render_template'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_view/base.rb:245:in `render_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1108:in `render_for_file'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:922:in `render_with_no_layout'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/layout.rb:259:in `render_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:51:in `render'
+    /app/controllers/snippets_controller.rb:44:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:131:in `custom'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:160:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:154:in `respond'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/mime_responds.rb:107:in `respond_to'
+    /app/controllers/snippets_controller.rb:42:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:1162:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:580:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:573:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/rescue.rb:201:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/connection_adapters/abstract/query_cache.rb:33:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.1.0/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:529:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/filters.rb:569:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/session_management.rb:130:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/base.rb:389:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:149:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:107:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:104:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:120:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/dispatcher.rb:35:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:502:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:354:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.1.0/lib/active_support/dependencies.rb:509:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.1.0/lib/commands/server.rb:39
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.1.0/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:00:43) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.73ms): Snippets:show:57
+Completed in 657ms (View: 1, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:01:21) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 640ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:01:23) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 651ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:01:35) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 639ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:01:48) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 41.76ms): Snippets:show:57
+Completed in 710ms (View: 1, DB: 40) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:02:12) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.67ms): Snippets:show:57
+Completed in 659ms (View: 1, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:02:43) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 652ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:02:51) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 646ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:03:13) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 647ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:03:15) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 652ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:03:23) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.93ms): Snippets:show:57
+Completed in 666ms (View: 1, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:06:20) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 712ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:06:35) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 640ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:07:10) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.70ms): Snippets:show:57
+Completed in 344ms (View: 1, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:07:13) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Completed in 326ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:23:36) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.76ms): Snippets:show:57
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 9ms (View: 1, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:24:39) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:24:40) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:24:41) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:24:41) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:25:08) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.85ms): Snippets:show:57
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 9ms (View: 1, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:25:35) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:25:41) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 4.89ms): Snippets:show:57
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 414ms (View: 404, DB: 3) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:25:50) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 333ms (View: 332, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:26:05) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 330ms (View: 329, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:27:01) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.52ms): Snippets:show:57
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 350ms (View: 342, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:27:43) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.67ms): Snippets:show:57
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 348ms (View: 341, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:27:44) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 327ms (View: 326, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:28:07) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.71ms): Snippets:show:57
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 415ms (View: 407, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:29:01) [GET]
+  Parameters: {"id"=>"57"}
+Cache miss: Snippets:show:57 ({})
+Cache write (will save 3.66ms): Snippets:show:57
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 351ms (View: 343, DB: 2) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:29:03) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 328ms (View: 327, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:29:04) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 330ms (View: 329, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:29:08) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 328ms (View: 326, DB: 0) | 200 OK [http://localhost/snippets/57.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:29:17) [GET]
+  Parameters: {"id"=>"56"}
+Cache miss: Snippets:show:56 ({})
+
+
+ActiveRecord::RecordNotFound (Couldn't find Snippet with ID=56):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1528:in `find_one'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1511:in `find_from_ids'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:590:in `find'
+    /app/models/snippet.rb:39:in `fetch'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/cache.rb:139:in `fetch'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/cache.rb:139:in `fetch'
+    /app/models/snippet.rb:39:in `fetch'
+    /app/controllers/snippets_controller.rb:48:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (40.4ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.0ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SnippetsController#index (for 127.0.0.1 at 2009-06-08 21:29:29) [GET]
+Cache miss: Snippet:all: ({:unless_exist=>false, :expires_in=>60 seconds})
+Cache write (will save 2.53ms): Snippet:all:
+Cache miss: Snippets:languages ({:unless_exist=>false})
+Cache write (will save 2.35ms): Snippets:languages
+Rendering template within layouts/main
+Rendering snippets/index
+Completed in 3264ms (View: 3231, DB: 2) | 200 OK [http://localhost/snippets]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 21:29:40) [GET]
+  Parameters: {"id"=>"47"}
+Cache miss: Snippets:show:47 ({})
+Cache write (will save 1.71ms): Snippets:show:47
+Rendering template within layouts/main
+Rendering snippets/show
+Completed in 300ms (View: 295, DB: 1) | 200 OK [http://localhost/snippets/47]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:34:21) [GET]
+  Parameters: {"id"=>"47"}
+Cache hit: Snippets:show:47 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 294ms (View: 292, DB: 0) | 200 OK [http://localhost/snippets/47.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:34:36) [GET]
+  Parameters: {"id"=>"47"}
+Cache hit: Snippets:show:47 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 293ms (View: 291, DB: 0) | 200 OK [http://localhost/snippets/47.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:50:50) [GET]
+  Parameters: {"id"=>"56"}
+Cache miss: Snippets:show:56 ({})
+
+
+ActiveRecord::RecordNotFound (Couldn't find Snippet with ID=56):
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1528:in `find_one'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:1511:in `find_from_ids'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/base.rb:590:in `find'
+    /app/models/snippet.rb:39:in `fetch'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/cache.rb:139:in `fetch'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/core_ext/benchmark.rb:8:in `realtime'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/cache.rb:139:in `fetch'
+    /app/models/snippet.rb:39:in `fetch'
+    /app/controllers/snippets_controller.rb:48:in `show'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /Library/Ruby/Gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Library/Ruby/Gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Library/Ruby/Gems/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+    script/server:3
+
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (48.0ms)
+Rendered /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (0.7ms)
+Rendering /Library/Ruby/Gems/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:50:55) [GET]
+  Parameters: {"id"=>"47"}
+Cache hit: Snippets:show:47 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 404ms (View: 404, DB: 0) | 200 OK [http://localhost/snippets/47.js]
+
+
+Processing SnippetsController#index (for 127.0.0.1 at 2009-06-08 21:51:13) [GET]
+Cache hit: Snippet:all: ({:unless_exist=>false, :expires_in=>60 seconds})
+Cache hit: Snippets:languages ({:unless_exist=>false})
+Rendering template within layouts/main
+Rendering snippets/index
+Completed in 2965ms (View: 2964, DB: 0) | 200 OK [http://localhost/snippets/]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 21:51:20) [GET]
+  Parameters: {"id"=>"47"}
+Cache hit: Snippets:show:47 ({})
+Rendering template within layouts/main
+Rendering snippets/show
+Completed in 295ms (View: 294, DB: 0) | 200 OK [http://localhost/snippets/47]
+
+
+Processing SnippetsController#new (for 127.0.0.1 at 2009-06-08 21:51:28) [GET]
+Rendering template within layouts/main
+Rendering snippets/new
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/snippets/new]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:52:39) [GET]
+  Parameters: {"id"=>"47"}
+Cache hit: Snippets:show:47 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 287ms (View: 286, DB: 0) | 200 OK [http://localhost/snippets/47.js]
+
+
+Processing SnippetsController#show to js (for 127.0.0.1 at 2009-06-08 21:53:30) [GET]
+  Parameters: {"id"=>"47"}
+Cache hit: Snippets:show:47 ({})
+Rendering snippets/show
+DEPRECATION WARNING: The binding argument of #concat is no longer needed.  Please remove it from your views and helpers.. (called from document_write at /Users/cheeyeo/railsapps/pasteit/app/helpers/application_helper.rb:10)
+Completed in 287ms (View: 286, DB: 0) | 200 OK [http://localhost/snippets/47.js]
+
+
+Processing SnippetsController#index (for 127.0.0.1 at 2009-06-08 21:53:43) [GET]
+Cache hit: Snippet:all: ({:unless_exist=>false, :expires_in=>60 seconds})
+Cache hit: Snippets:languages ({:unless_exist=>false})
+Rendering template within layouts/main
+Rendering snippets/index
+Completed in 3023ms (View: 3022, DB: 0) | 200 OK [http://localhost/snippets]
+
+
+Processing SnippetsController#show (for 127.0.0.1 at 2009-06-08 21:53:47) [GET]
+  Parameters: {"id"=>"57"}
+Cache hit: Snippets:show:57 ({})
+Rendering template within layouts/main
+Rendering snippets/show
+Completed in 334ms (View: 332, DB: 0) | 200 OK [http://localhost/snippets/57]

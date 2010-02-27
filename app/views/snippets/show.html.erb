@@ -1,0 +1,146 @@
+<script>
+$(document).ready(function(){
+	//alert(document.cookie);
+	
+	function readCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+
+	
+	
+	snippet=readCookie("snippets");
+	//alert(snippet);
+	//convert string to array here??
+	arr=snippet.split("%2C");
+	
+	//alert(arr);
+	//alert('<%=@snippet.id%>');
+	//alert(jQuery.inArray('<%=@snippet.id%>', arr));
+	if (snippet && (jQuery.inArray("<%=@snippet.id%>", arr)>-1)  ){ 
+	  $("#control").show(); 
+	  $("#snippet-edit-button").show();
+	  $("#delete_link").show();
+	}
+	
+	});
+	
+</script>
+
+
+
+<div id="gist_data">
+  <div id="repos">
+    
+      <div class="repo public">
+    
+      <div class="title">
+        <div class="path">
+          snippet: <%= @snippet.id %>        
+        </div>
+
+       
+        
+      </div>
+      
+      <div class="meta">
+        <table>     
+          <tr>
+
+		            <td class="label">Description:</td>
+		            <td>
+		              <div class="description">                              
+						<span style="display: inline;" id="snippet-description" class="edit">
+						<%= @snippet.desc.blank? ? 'None':@snippet.desc %></span>
+		                  <span id="edit-block" style="display: none;">                              
+		                    <input id="snippet-id" value="<%= @snippet.id %>" type="hidden">
+		                <input id="test" name="test" type="text" value="<%= @snippet.desc %>">
+		                    <a href="#description" class="save-description action" id="update-snippet">save</a>
+		                  </span>
+		                  <a style="display:none;" href="#description" id="snippet-edit-button" class="edit-description action">edit</a>
+
+		              </div>
+		            </td>
+		          </tr>
+		
+        </table>
+      </div>
+
+
+
+
+    </div>
+  </div>
+
+  <div id="files">
+    
+      <div class="file">
+        <div class="meta">
+          <div class="info">
+            <span><%= @snippet.get_file_type %></span>
+          </div>
+
+          <div class="actions">
+            
+            
+            
+            <a href="/snippets/<%= @snippet.id%>.txt">Original text</a>
+          </div>
+        </div>
+
+        <div class="data syntax">
+            <%= @content.colorize %>
+        </div>
+
+      </div>
+        
+
+        
+
+     <!-- cache end -->
+     <div id="delete_link" style="display:none;">
+         <%= link_to 'Delete Snippet', @snippet,:confirm=>'Are you sure you want to delete snippet?', :method=>:delete %>
+     </div>
+    
+    
+  </div>
+</div> <!-- gist_data -->
+
+<div id="gist_meta">
+  
+  
+  
+ <div id="control" style="display:none;">
+      <a href="/snippets/edit/<%= @snippet.id%>">
+       <img alt="edit gist" src="/images/edit_gist_button.png" />
+       </a>
+    </div>
+	
+
+	
+  <div id="created">
+    <h3>Created</h3>
+     <%= distance_of_time_in_words_to_now(@snippet.created_at)%> ago
+  </div>
+	
+	<br/>
+  <div id="link">
+    <h3>Permalink</h3>
+    <span class="link"><a href="http://localhost:3000/<%= @snippet.permalink %>">http://localhost:3000/<%= @snippet.permalink %></a></span> 
+  </div>
+  
+<br/>
+  <div id="options">
+    
+    <h3>Options</h3>
+      <a href="/snippets/<%= @snippet.id%>.txt">View as text</a> | 
+            <a href="/snippets/<%= @snippet.id%>/download">Download File</a>
+  </div>
+  
+</div> <!-- gist_meta -->

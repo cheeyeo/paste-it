@@ -1,0 +1,99 @@
+<script>
+$(document).ready(function(){
+	//alert(document.cookie);
+	
+	function readCookie(name) {
+		var nameEQ = name + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0;i < ca.length;i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1,c.length);
+			if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+		}
+		return null;
+	}
+
+	
+	
+	snippet=readCookie("snippets");
+	//alert(snippet);
+	//convert string to array here??
+	arr=snippet.split("%2C");
+	
+	//alert(arr);
+	//alert(jQuery.inArray("<%=@snippet.id%>", arr));
+	if ((jQuery.inArray("<%=@snippet.id%>", arr)<0)  ){ 
+	 //document.location.href="/snippets";
+	}
+	
+	
+	});
+	
+</script>
+
+<%= error_messages_for 'snippet' %>
+
+<% form_for @snippet do |f| %>
+
+    <div id="gist_data">
+
+	<div id="files">
+	  <div class="file">
+
+	  <div class="meta">
+	    <div class="language">
+	      <div class="gist-lang-desc" style="display: none;">Language detected by filename extension</div>
+	      <div class="gist-lang">
+	        <div>
+    
+	         Language: <%= f.select( :file_ext, Snippet.load_extensions) %>             
+
+	      </div>
+	    </div>
+		</div>
+		
+		<div class="name">
+		      <%= f.text_field :file_name, :id=>"snippet-name-textbox", :class=>"snippet-name-textbox", :style=>"display:none;" %>
+		     
+		      <a class="name-file" href="#">
+		          <%=(@snippet.file_name.blank?) ? 'File Name (not required)' : @snippet.file_name%></a>
+		    </div>
+		  </div>
+		
+	
+	<!--<div class="name">
+	  <label for "snippet-name-textbox">File Title</label>
+	  <input class="snippet-name-textbox" type="text" style="" name="snippet[file_name]">
+	</div>
+    </div>-->
+
+		<div class="input">
+		<%= text_area 'snippet', 'body' %>
+		</div>
+		</div>
+		</div>
+
+		<%= submit_tag "Update" %>
+		
+</div> <!-- gist_data -->
+
+     <div class="push"></div>
+
+		<div id="gist_meta" style="margin-top:-150px;">
+		  <div id="options">
+		    <h3>Options</h3>
+		    <div class="private">
+		      <label>
+		
+		<%=check_box("snippet", "private")%>
+		
+		<img src="/images/private.png" alt="private" /> <span>Private Snippet<br/>(will not show up on main page)</span></label>
+
+		    </div>
+		  </div>
+		</div> <!-- gist_meta -->
+
+
+
+	
+   <%end%>

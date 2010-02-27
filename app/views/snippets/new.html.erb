@@ -1,0 +1,71 @@
+
+<%= error_messages_for 'snippet' %>
+
+<% form_for @snippet do |f| %>
+
+    <div id="gist_data">
+
+	<div id="files">
+	  <div class="file">
+
+	  <div class="meta">
+	    <div class="language">
+	      <div class="gist-lang-desc" style="display: none;">Language detected by filename extension</div>
+	      <div class="gist-lang">
+	        <div>
+    
+	         Language:
+	         <select name="snippet[file_ext]">
+	           <% Snippet.load_extensions.each do |ex|%>
+	              <option value="<%=ex[1]%>"><%=ex[0]%></option>
+				<% end %>
+	         </select>
+
+	      </div>
+	    </div>
+		</div>
+		
+		<div class="name">
+		      <input id="snippet-name-textbox" class="snippet-name-textbox" type="text" style="display:none;" name="snippet[file_name]">
+		      <a class="name-file" href="#">File Name (not required)</a>
+		    </div>
+		  </div>
+		
+	
+	<!--<div class="name">
+	  <label for "snippet-name-textbox">File Title</label>
+	  <input class="snippet-name-textbox" type="text" style="" name="snippet[file_name]">
+	</div>
+    </div>-->
+
+		<div class="input">
+		<%= text_area 'snippet', 'body' %>
+		</div>
+		</div>
+		</div>
+
+		<%= submit_tag "Create" %>
+		
+</div> <!-- gist_data -->
+
+     <div class="push"></div>
+	
+	
+	<div id="gist_meta" style="margin-top:-150px;">
+	  <div id="options">
+	    <h3>Options</h3>
+	    <div class="private">
+	      <label>
+	<%=check_box("snippet", "private")%>
+	<img src="/images/private.png" alt="private" /> <span>Private Snippet<br/>(will not show up on main page)</span></label>
+
+	    </div>
+	  </div>
+	</div> <!-- gist_meta -->
+	
+	
+	
+	
+   <%end%>
+
+

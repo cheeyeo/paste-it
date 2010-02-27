@@ -1,0 +1,66 @@
+<div id="gist_data">
+ <h2>All Snippets</h2>
+
+
+<div id="files">
+
+<% @snippets.each do |snippet| %>
+ <!-- for a single snippet-->
+  <div class="file">
+    <div class="meta public inline-gravatar">
+      <div class="info">
+
+        <span>
+           <%= link_to "Snippet: #{snippet.id}" ,snippet_path(snippet)%>
+           </span>
+        <span></span>
+      </div>
+
+      <div class="right">
+        <span class="date">
+          <abbr class="relatize" title="<%=snippet.get_created_time %>">
+            <%= distance_of_time_in_words_to_now(snippet.created_at)%> ago</abbr>
+        </span>
+
+        <br style="clear: both;">
+      </div>
+    </div>
+    <div class="data syntax">
+
+      <%= snippet.get_sub_content %>
+
+    </div>
+  </div><!-- end single snippet here-->
+
+<% end %>
+
+<%= will_paginate @snippets %>
+
+
+
+</div> <!-- gist_data -->
+
+
+
+
+</div>
+
+
+
+<div id="gist_meta">
+	
+	
+	<div id="options">
+    
+	    <h2>Languages</h2>
+	     <% @h.each do |key,val| %>
+	       <span class="link"><a href="/snippets/search?q=<%=key%>"><%= Snippet.get_language_name(key) %> (<%= @h[key].size%>)</a></span><br/>
+	     <% end %>
+	  </div>
+
+   
+
+
+
+  </div>
+
