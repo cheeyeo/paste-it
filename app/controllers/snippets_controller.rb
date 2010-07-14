@@ -45,21 +45,16 @@ class SnippetsController < ApplicationController
   def show
     @snippet= case
       when params[:id]
-        Snippet.fetch(params[:id])
+        # Snippet.fetch(params[:id])
+        Snippet.find(params[:id])
       when params[:permalink]
         Snippet.fetch_permalink(params[:permalink])
       end
     
     @content= @snippet.get_formatted_content
+    
     respond_to do |format|
-      #format.js {render :layout => false, :text=>@snippet.to_json } for rendering json??
-      #format.js { render :text => @snippet.embed_js.delete!("\n"), :layout => false } #show.js.erb
-      
-      format.js do
-        #render :text => @snippet.embed_js
-        render :layout => false
-      end
-      
+      format.js{ render :layout => false }
       format.html   
       format.text { render :text => @snippet.body, :layout => false}
     end
@@ -116,11 +111,7 @@ class SnippetsController < ApplicationController
   end
   
   def search
-    #@results = Snippet.cached_search(params[:q])
-    #@results = Snippet.search("#{params[:q]}", [:file_ext],:order=>'created_at desc',:conditions=>'private != 1')
     @results = Snippet.search(params[:q],params[:page])
-    #@res =  @results.paginate
-    
   end
  
   

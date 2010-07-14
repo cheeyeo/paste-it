@@ -13,7 +13,13 @@ class Snippet < ActiveRecord::Base
     %(
       <link rel="stylesheet" href="http://localhost:3000/stylesheets/test.css"/>
       <link rel="stylesheet" href="http://localhost:3000/stylesheets/screen.css"/>
-      #{self.get_formatted_content}
+      <div id="files">
+        <div class="file">
+          <div class="data syntax">
+            #{self.get_formatted_content}
+          </div>
+         </div>
+       </div>
     )
   end
   
@@ -106,12 +112,11 @@ class Snippet < ActiveRecord::Base
   
   def get_formatted_content
     content = Albino.new(self.body, find_lexer)
-    content
+    content.colorize
   end
   
   def get_sub_content
     format=self.body.split("\n")
-    #format.delete_if{|x| x=="\r" || x == "    \r"}
     whole=""   
     (format[0].nil?) ? whole << " "  : whole << format[0]
     (format[1].nil?) ? whole << " "  : whole << format[1]
@@ -120,17 +125,11 @@ class Snippet < ActiveRecord::Base
     content
   end
   
-  
-  
+
   def get_created_time
     self.created_at.strftime("%Y/%m/%d %I:%M%p")
   end
-  
-  
-  
-  
-  
-  
+
   protected
     def validate
        errors.add(:body, "must not be blank") if body.nil?

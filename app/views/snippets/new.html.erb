@@ -1,3 +1,5 @@
+<div class="content">
+  
 
 <%= error_messages_for 'snippet' %>
 
@@ -39,7 +41,7 @@
     </div>-->
 
 		<div class="input">
-		<%= text_area 'snippet', 'body' %>
+		<%= f.text_area 'body' , {:id => 'holder'} %>
 		</div>
 		</div>
 		</div>
@@ -53,19 +55,64 @@
 	
 	<div id="gist_meta" style="margin-top:-150px;">
 	  <div id="options">
-	    <h3>Options</h3>
+	    <h3>Usage</h3>
+	    <div class="private">
+	      <p>
+	        Copy and paste text from your clipboard within the text area.
+	      </p>
+	      <br/>
+	      <p>
+          You can drag and drop a file within the text area below for the content to be
+          automatically read.
+        </p>
+	    </div>
+	    
+	    <br/>
 	    <div class="private">
 	      <label>
 	<%=check_box("snippet", "private")%>
-	<img src="/images/private.png" alt="private" /> <span>Private Snippet<br/>(will not show up on main page)</span></label>
+	<img src="/images/private.png" alt="private" /> <span>Private Snippet<br/>(will not show up on main page)</span>
+	      </label>
 
 	    </div>
 	  </div>
-	</div> <!-- gist_meta -->
-	
-	
-	
+	</div>
 	
    <%end%>
+</div>
 
+   <script>
+   //var holder = document.getElementById('holder'),
+       // state = document.getElementById('status');
+       // 
+           if (typeof window.FileReader === 'undefined') {
+                     //state.className = 'fail';
+                     console.log('fail');
+                   } else {
+                     //state.className = 'success';
+                     //state.innerHTML = 'File API & FileReader available';
+                     console.log('File API & FileReader available');
+                   }
+
+   var holder = document.getElementById('holder');
+   holder.ondragover = function () { this.className = 'hover'; return false; };
+   holder.ondragend = function () { this.className = ''; return false; };
+   holder.ondrop = function (e) {
+     this.className = '';
+     e.preventDefault();
+
+     var file = e.dataTransfer.files[0],
+         reader = new FileReader();
+     reader.onload = function (event) {
+       //holder.style.background = 'url(' + event.target.result + ') no-repeat center';
+       //console.log(event.target.result);
+       //console.log(holder);
+       holder.value = event.target.result;
+     };
+
+     //reader.readAsDataURL(file); // this reads the file in base64 encoding format suitable for images
+     reader.readAsText(file); // this reads the file as plain text
+     return false;
+   };
+   </script>
 
